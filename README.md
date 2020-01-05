@@ -1,6 +1,7 @@
 # Gke-Cluester-Terraform
 Script Para Criar um Cluster GKE
- Sample:
+# Sample:
+
     resource "google_container_cluster" "gke-cluster-1" {
     name               = "my-first-gke-cluster"
     network            = "default"
