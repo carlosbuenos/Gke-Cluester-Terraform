@@ -16,9 +16,9 @@ Script Para Criar um Cluster GKE
      
   # 2- Entre na pasta criada e crie um arquivo com a extenção .tf no google cloud shell
      cd Terraform-createcluster
-     touch my-first-cluster.tf
+     touch Gke-Cluster.tf
      
-  # 3- copie o script de Exemplo e cole dentro do arquivo
+  # 3- copie o script do arquivo de mesmo nome(Gke-Cluster.tf) existente no repositorio e cole dentro do arquivo
       para efetuar esse processo você pode seguir o tuttorial de referência no link abaixo.
          https://cloud.google.com/shell/docs/viewing-and-editing-files
          
