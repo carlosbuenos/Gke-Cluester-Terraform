@@ -1,5 +1,11 @@
 # Gke-Cluester-Terraform
 
+# Dica Importante
+ É necessario criar um projeto na plataforma para depois seguir estes passos.
+
+# Link da documentação de como criar um projeto.
+   https://cloud.google.com/resource-manager/docs/creating-managing-projects
+
 # Conheça um pouco sobre o terraform 
 
  # 1- https://www.terraform.io/
