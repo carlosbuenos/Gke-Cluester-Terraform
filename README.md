@@ -1,4 +1,18 @@
 # Gke-Cluester-Terraform
+
+# Pré requisitos:
+ # Instalação GCE
+  curl -O https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-138.0.0-linux-x86_64.tar.gz
+  tar -zxvf google-cloud-sdk-138.0.0-linux-x86_64.tar.gz
+  rm google-cloud-sdk-138.0.0-linux-x86_64.tar.gz
+  ./google-cloud-sdk/install.sh
+ 
+ # Excutar login
+  gcloud init
+  
+ # Instalar o kubectl, o cliente para gerenciar o kubernetes:
+  gcloud components install kubectl
+
 Script Para Criar um Cluster GKE
 # Exemplo:
 
