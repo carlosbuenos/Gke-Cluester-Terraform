@@ -44,4 +44,17 @@ Script Para Criar um Cluster GKE
    
    # 4.3 Execute o comando de confirmação para que o processo seja finalizado.
        terraform apply
+       
+ # Alternativa
+    No shel do google cloud execute os comandos abaixo.
+  # 1- Clone deste repositorio
+    $ git clone https://github.com/carlosbuenos/Gke-Cluester-Terraform.git   
+  # 2- Entrar na pasta do projeto
+    cd Gke-Cluester-Terraform
+  # 3- Inicializar o Terraform
+    terraform init
+  # 4- Executar o comando para confirmar e executar a leitura do arquivo
+    terraform apply
+   
+    
       
