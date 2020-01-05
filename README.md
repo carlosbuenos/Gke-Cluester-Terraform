@@ -1,5 +1,5 @@
 # Gke-Cluester-Terraform
-
+# Conheça um pouco sobre o terraform https://www.terraform.io/
 # Pré requisitos:
  # Instalação GCE
   curl https://sdk.cloud.google.com | bash && exec -l $SHELL
