@@ -6,3 +6,17 @@ resource "google_container_cluster" "clbueno-1" {
   enable_kubernetes_alpha = "true"
   enable_legacy_abac = "true"
 }
+
+resource "kubernetes_namespace" "Service" {
+  metadata {
+    annotations = {
+      name = "Service"
+    }
+
+    labels = {
+      mylabel = "Service"
+    }
+
+    name = "Service"
+  }
+}
